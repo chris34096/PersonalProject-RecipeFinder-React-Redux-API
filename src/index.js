@@ -7,7 +7,6 @@ import FavoriteRecipeList from "./components/FavoriteRecipeList";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 import rootReducer from "./reducers";
-import FavoriteRecipeList from "./components/FavoriteRecipeList";
 
 const store = createStore(rootReducer);
 
